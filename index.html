@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mla and Movies</title>
+    <link rel="stylesheet" href="styles_genres.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Mla and Movies</h1>
+            <button onclick="location.href='home.html'">Home</button>
+            <button onclick="location.href='index.html'">I grafici</button>
+            <button onclick="location.href='https://ixd-supsi.github.io/2024/'">INDEX</button>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <!-- Primo blocco: Storia dell'algoritmo -->
+            <!-- Non specificato, è possibile aggiungere ulteriori contenuti qui se necessario -->
+
+            <!-- Secondo blocco: Grafico 1 - Budget per Anno -->
+            <div class="block algorithm-block">
+                <h2>Budget per Anno</h2>
+                <div id="chart1-container">
+                    <canvas id="chart1" class="chart"></canvas>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Terzo blocco: Grafico 2 - Oscar per Genere -->
+            <div class="block algorithm-block">
+                <h2>Oscar per Genere</h2>
+                <div id="chart2-container">
+                    <canvas id="chart2" class="chart"></canvas>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Quarto blocco: Grafico 3 - Numero produzioni per Anno -->
+            <div class="block algorithm-block">
+                <h2>Numero produzioni per Anno</h2>
+                <div id="chart3-container">
+                    <canvas id="chart3" class="chart"></canvas>
+                </div>
+              
+            </div>
+        </div>
+    </main>
+    <script src="script_1.js"></script>
+</body>
+</html>
