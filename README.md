@@ -1,19 +1,19 @@
-SUPSI 20223-24
+SUPSI 2023-24
 Corso d’interaction design, CV428.01
 Docenti: A. Gysin, G. Profeta
 
 Elaborato 1: XS
 
-Mla and Movies
+# Mla and Movies
 
 Autore: Dragan Radic
-Mla and Movies
+[Mla and Movies](https://imdragan.github.io/MlaAndMovies/)
 
-Introduzione e tema
+## Introduzione e tema
 
 Questo progetto si propone di visualizzare dati statistici relativi a film utilizzando grafici interattivi. I dati sono estratti da un file JSON che contiene informazioni come il titolo del film, il genere, l'anno di uscita, il budget, gli Oscar vinti, il luogo di produzione, e altri dettagli pertinenti. Utilizzando la libreria Chart.js, i dati vengono rappresentati visivamente in diversi tipi di grafici per fornire una panoramica comprensibile delle tendenze e delle relazioni tra le variabili.
 
-Riferimenti progettuali
+## Riferimenti progettuali
 
 Il progetto si basa su un'architettura client-side utilizzando HTML, CSS e JavaScript. I principali riferimenti progettuali includono:
 
@@ -25,7 +25,7 @@ JavaScript (Chart.js): Utilizzato per la creazione dinamica dei grafici a partir
 
 
 
-Design dell’interfraccia e modalià di interazione
+## Design dell’interfraccia e modalià di interazione
 
 L'interfaccia è progettata con un layout semplice e intuitivo per facilitare la navigazione e la comprensione dei dati presentati. I grafici sono collocati in blocchi separati all'interno di una struttura a colonne, consentendo una visualizzazione chiara e ordinata delle informazioni.
 
@@ -45,7 +45,7 @@ L'interfaccia è progettata con un layout semplice e intuitivo per facilitare la
 
 
 
-Tecnologia usata
+## Tecnologia usata
 
 Chart.js: Libreria JavaScript per la creazione di grafici interattivi.
 
@@ -55,7 +55,7 @@ CSS3: Fogli di stile per la presentazione e la formattazione dell'interfaccia ut
 
 JavaScript: Linguaggio di scripting per l'interazione dinamica con gli elementi HTML e la manipolazione dei dati.
 
-Parti di codice rilevanti per il progetto
+## Parti di codice rilevanti per il progetto
 
 // Funzione per creare un grafico a linee per anno di uscita e budget
 function createLineChart(ctx, data) {
@@ -104,11 +104,11 @@ function createLineChart(ctx, data) {
 
 
 
-Contesto d’uso
+## Contesto d’uso
 
 Questo progetto è ideato per fornire una visualizzazione interattiva dei dati relativi ai film attraverso l'uso di grafici dinamici. È pensato per essere utilizzato da utenti interessati a esplorare e comprendere le relazioni tra variabili come budget, premi vinti, anno di uscita e altro, per categorie specifiche di film. Gli utenti possono navigare tra diversi grafici per ottenere insights sui trend nel mondo cinematografico e comprendere meglio le dinamiche di produzione, successo e premiazioni dei film nel corso degli anni.
 
-Target
+## Target
 
 Il progetto è rivolto a:
 
